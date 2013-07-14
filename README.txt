@@ -1,23 +1,27 @@
-Descrição:
+Descriï¿½ï¿½o:
 
-Desenvolva um webcrawler HTTP/1.1 multithreaded, com um subconjunto da RFC 2616 [1]. O webcrawler recebe como parâmetro na linha de comando a profundidade de busca e uma URL. A partir disso, o webcrawler recursivamente busca a página e as páginas ligadas com tags < ahref > até o nível máximo especi?cado na profundidade de busca. As seguintes linguagens de programação podem ser usadas:
+Desenvolva um webcrawler HTTP/1.1 multithreaded, com um subconjunto da RFC 2616 [1]. O webcrawler recebe como parï¿½metro na linha de comando a profundidade de busca e uma URL. A partir disso, o webcrawler recursivamente busca a pï¿½gina e as pï¿½ginas ligadas com tags < ahref > atï¿½ o nï¿½vel mï¿½ximo especi?cado na profundidade de busca. As seguintes linguagens de programaï¿½ï¿½o podem ser usadas:
   C, C++ e Objective C
   Java
   Ruby
   Python
   Perl
   Shell script
-Outras linguagens podem ser usadas desde que o professor seja consultado antes e esteja de acordo. Porém, bibliotecas,
-componentes ou códigos disponíveis na Internet que implementem o protocolo HTTP não podem ser usados. Caso seja detectado
-desrespeito a este detalhe, o trabalho receberá nota zero.Um script chamado executeme deve ser fornecido para disparar o programa. No máximo 8 threads devem executar em paralelo em um determinado instante. Não é necessário respeitar o arquivo robots.txt no servidor (embora seja desejável). Não é obrigatório o uso de threads, mas um adicional de 10% na nota será dado para os casos em que forem usadas (e o trabalho funcionar). O trabalho deve ser todo desenvolvido com o sistema de gerenciamento de versões git. Todas as modi?cações nos códigos devem ser registradas com comentários que façam sentido. Uma opção para compartilhar um repositório apenas com os colegas que fazem parte do grupo é usar o Sparkleshare. O trabalho pode ser feito em grupos de até 4 alunos, desde que seja possível identi?car commits de todos os integrantes do grupo com contribuição ao projeto.
+Outras linguagens podem ser usadas desde que o professor seja consultado antes e esteja de acordo. Porï¿½m, bibliotecas,
+componentes ou cï¿½digos disponï¿½veis na Internet que implementem o protocolo HTTP nï¿½o podem ser usados. Caso seja detectado
+desrespeito a este detalhe, o trabalho receberï¿½ nota zero.Um script chamado executeme deve ser fornecido para disparar o programa. No mï¿½ximo 8 threads devem executar em paralelo em um determinado instante. Nï¿½o ï¿½ necessï¿½rio respeitar o arquivo robots.txt no servidor (embora seja desejï¿½vel). Nï¿½o ï¿½ obrigatï¿½rio o uso de threads, mas um adicional de 10% na nota serï¿½ dado para os casos em que forem usadas (e o trabalho funcionar). O trabalho deve ser todo desenvolvido com o sistema de gerenciamento de versï¿½es git. Todas as modi?caï¿½ï¿½es nos cï¿½digos devem ser registradas com comentï¿½rios que faï¿½am sentido. Uma opï¿½ï¿½o para compartilhar um repositï¿½rio apenas com os colegas que fazem parte do grupo ï¿½ usar o Sparkleshare. O trabalho pode ser feito em grupos de atï¿½ 4 alunos, desde que seja possï¿½vel identi?car commits de todos os integrantes do grupo com contribuiï¿½ï¿½o ao projeto.
 
 
 Produtos
 
-A entrega será realizadas pelo Ava, e devera conter:
-  Fontes do programa e cópia do repositório do sistema de gerenciamento de versões;
+A entrega serï¿½ realizadas pelo Ava, e devera conter:
+  Fontes do programa e cï¿½pia do repositï¿½rio do sistema de gerenciamento de versï¿½es;
   Make?le que gere o programa;
-  Script para disparar o executável;
-  README.txt contendo nome completo dos alunos e curso, descrevendo a implementação e os testes realizados.
+  Script para disparar o executï¿½vel;
+  README.txt contendo nome completo dos alunos e curso, descrevendo a implementaï¿½ï¿½o e os testes realizados.
 
 
+Grupo: Erick Chemesvski Espindula
+       Lisandro Luiz da Silva
+
+Curso: Eng. de ComputaÃ§Ã£o
