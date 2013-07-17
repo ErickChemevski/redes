@@ -1,7 +1,13 @@
+#!/usr/bin/env python
+# coding: utf-8
+ 
 import urllib.request
+import sys
+
+parametro = sys.argv[1:]
 
 def recur(prof,url):
- if prof != 0 :
+	if prof != 0 :
 		resposta = urllib.request.urlopen(url)
  
 		line = resposta.readline().decode("utf-8")
@@ -30,6 +36,6 @@ def recur(prof,url):
 				else :                 
 						line = resposta.readline().decode("utf-8")
 
-prof = 2
-url = http://www.baixeturbo.org/
+prof = int(parametro[0])
+url = parametro[1]
 recur(prof,url)
